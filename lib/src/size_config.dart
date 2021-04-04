@@ -22,9 +22,9 @@ double getProportionateScreenHeight (double inputHeight) {
   return (inputHeight / 812.0) * screenHeight;
 }
 
-double getProportionateScreenWidth (double screenWidth) {
+double getProportionateScreenWidth (double inputWidth) {
   double screenWidth  = SizeConfig.screenWith;
 
   /* 375 with value from design */
-  return (screenWidth / 375.0) * screenWidth;
+  return (inputWidth / 375.0) * screenWidth;
 }
